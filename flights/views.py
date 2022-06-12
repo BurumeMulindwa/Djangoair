@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import Flight, Passenger
 from django.urls import reverse
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect, Http404
 
 
 def index(request):
